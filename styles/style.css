@@ -578,7 +578,7 @@ overflow-wrap: anywhere;
     }
  }
  @media (max-width: 768px){
-    #menu-btn{
+    .header #menu-btn{
         display: inline-block;
     }
     .header .navbar{
@@ -601,4 +601,11 @@ overflow-wrap: anywhere;
         font-size: 2rem;
     }
  }
+ @media (max-width: 576px){
+    html{
+        font-size: 50%;
+    }
+   
+ }
+
  /* responsive end */

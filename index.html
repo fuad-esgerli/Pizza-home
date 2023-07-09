@@ -19,31 +19,31 @@
       <a href="#" class="logo">
         <img src="images/logo (2).png" alt="logo" />
       </a>
-      <nav class="navbar ">
-        <a href="#" class="active">Home</a>
-        <a href="#">About</a>
-        <a href="#">Menu</a>
-        <a href="#">Products</a>
-        <a href="#">Review</a>
-        <a href="#">Contact</a>
-        <a href="#">Blogs</a>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Products</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+        <a href="#blog">Blogs</a>
       </nav>
       <div class="buttons">
-        <button>
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
-        <button>
-          <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+        <button id="search-btn">
+          <i class="fas fa-search"></i>
+        </button >
+        <button id="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
         </button>
         <button id="menu-btn">
-          <i class="fa-solid fa-bars"></i>
+          <i class="fas fa-bars"></i>
         </button>
       </div>
-      <div class="search-form ">
+      <div class="search-form">
         <input type="text" class="search-input" placeholder="search here" id="search-box">
         <i class="fas fa-search"></i>
       </div>
-      <div class="cart-items-container active">
+      <div class="cart-items-container ">
         <div class="cart-item">
 <i class="fas fa-times"></i>
 <img src="./images/menu-1.png" alt="menu1">
@@ -89,7 +89,7 @@
     </header>
     <!-- header end -->
     <!-- home start -->
-    <section class="home">
+    <section class="home" id="home">
       <div class="content">
         <h3>GEMICHI HOME DELIVERY</h3>
         <p>
@@ -101,7 +101,7 @@
     </section>
     <!-- home end -->
     <!-- menu start -->
-    <section class="menu">
+    <section class="menu" id="menu">
       <h1 class="heading">our <span>menu</span></h1>
       <div class="box-container">
         <div class="box">
@@ -155,7 +155,7 @@
     </section>
     <!-- menu end -->
     <!-- products start -->
-    <section class="products">
+    <section class="products" id="products">
       <h1 class="heading">our <span>products</span></h1>
       <div class="box-container">
         <div class="box">
@@ -224,7 +224,7 @@
     </section>
     <!-- products end -->
     <!-- about start -->
-    <section class="about">
+    <section class="about" id="about">
       <h1 class="heading">about <span>us</span></h1>
       <div class="row">
         <div class="image">
@@ -253,7 +253,7 @@
     </section>
     <!-- about end -->
     <!-- review start -->
-    <section class="review">
+    <section class="review" id="review">
       <h1 class="heading">customer's <span>revieww</span></h1>
       <div class="box-container">
         <div class="box">
@@ -316,7 +316,7 @@
     </section>
     <!-- review end -->
     <!-- contact start -->
-    <section class="contact">
+    <section class="contact" id="contact">
       <h1 class="heading">contact <span>us</span></h1>
       <div class="row">
         <iframe
@@ -347,7 +347,7 @@
     </section>
     <!-- contact end -->
     <!-- blog start -->
-    <section class="blog">
+    <section class="blog" id="blog">
       <h1 class="heading">our <span>blog</span></h1>
       <div class="box-container">
         <div class="box">
@@ -424,5 +424,6 @@
       </div>
     </section>
     <!-- footer end -->
+    <script src="./js/script.js"></script>
   </body>
 </html>
